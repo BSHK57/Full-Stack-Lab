@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 function CurrencyConvertor(){
-    const exchangerate = 0.011;
+    const exchangerate = 1/87.5;
 
     const [inr, setinr] = useState('');
 
